@@ -1,0 +1,17 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6; 
+}
+.message-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.h-screen-minus-header {
+    min-height: calc(100vh - 150px); 
+}
+.nav-active {
+    background-color: #3b82f6 !important; 
+    color: white !important;
+}
